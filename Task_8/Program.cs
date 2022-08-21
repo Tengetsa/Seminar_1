@@ -7,6 +7,6 @@ int Numbers = 1;
 
 while (Numbers <= N)
 {
-     if (Numbers%2 == 0) Console.WriteLine($"Число {Numbers} четное ");
+     if (Numbers%2 == 0) Console.Write($"{Numbers} ");
     Numbers++;
 }
