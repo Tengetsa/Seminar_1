@@ -9,7 +9,7 @@ int b = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите третье число: ");
 int c = int.Parse(Console.ReadLine());
 
-int max = 0;
+int max = a;
 
 if (a > b && a > c)  max = a;
 else if (b > a && b > c) max = b;
